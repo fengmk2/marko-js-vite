@@ -87,10 +87,16 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.37.0",
-    "vite": "^7.1.10"
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "@voidzero-dev/vite-plus": "latest"
   },
   "peerDependencies": {
     "@marko/compiler": "^5",
     "vite": "4 - 7"
+  },
+  "packageManager": "npm@11.6.4",
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   }
 }
