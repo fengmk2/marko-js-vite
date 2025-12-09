@@ -40,6 +40,10 @@
     "test:update": "npm test -- --update",
     "version": "changeset version && npm i --package-lock-only"
   },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497"
+  },
   "dependencies": {
     "@chialab/cjs-to-esm": "^0.18.0",
     "anymatch": "^3.1.3",
@@ -65,6 +69,7 @@
     "@types/node": "^24.0.14",
     "@types/resolve": "^1.20.6",
     "@types/serve-handler": "^6.1.4",
+    "@voidzero-dev/vite-plus": "0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497",
     "cross-env": "^7.0.3",
     "diff": "^8.0.2",
     "esbuild": "^0.25.6",
@@ -87,16 +92,11 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.37.0",
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "@voidzero-dev/vite-plus": "latest"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497"
   },
   "peerDependencies": {
     "@marko/compiler": "^5",
     "vite": "4 - 7"
   },
-  "packageManager": "npm@11.6.4",
-  "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
-  }
+  "packageManager": "npm@11.6.4"
 }
