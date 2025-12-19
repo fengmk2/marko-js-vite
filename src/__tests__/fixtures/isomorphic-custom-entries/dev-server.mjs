@@ -4,7 +4,7 @@
 import { createRequire } from "module";
 import path from "path";
 import url from "url";
-import { createServer } from "vite";
+import { createServer } from "@voidzero-dev/vite-plus";
 
 import testConfig from "./test.config";
 

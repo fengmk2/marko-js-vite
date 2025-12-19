@@ -5,7 +5,7 @@ import glob from "fast-glob";
 import fs from "fs";
 import { createRequire } from "module";
 import path from "path";
-import type * as vite from "vite";
+import type * as vite from "@voidzero-dev/vite-plus";
 
 import cjsInteropTranslate, {
   cjsInteropHelpersCode,
