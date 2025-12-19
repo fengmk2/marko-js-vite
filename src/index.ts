@@ -1,11 +1,11 @@
 import * as compiler from "@marko/compiler";
+import type * as vite from "@voidzero-dev/vite-plus";
 import anyMatch from "anymatch";
 import crypto from "crypto";
 import glob from "fast-glob";
 import fs from "fs";
 import { createRequire } from "module";
 import path from "path";
-import type * as vite from "vite";
 
 import cjsInteropTranslate, {
   cjsInteropHelpersCode,

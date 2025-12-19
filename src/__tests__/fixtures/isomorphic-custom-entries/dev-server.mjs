@@ -1,10 +1,10 @@
 // In dev we'll start a Vite dev server in middleware mode,
 // and forward requests to our http request handler.
 
+import { createServer } from "@voidzero-dev/vite-plus";
 import { createRequire } from "module";
 import path from "path";
 import url from "url";
-import { createServer } from "vite";
 
 import testConfig from "./test.config";
 

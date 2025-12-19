@@ -41,8 +41,8 @@
     "version": "changeset version && npm i --package-lock-only"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc"
   },
   "dependencies": {
     "@chialab/cjs-to-esm": "^0.18.0",
@@ -69,7 +69,7 @@
     "@types/node": "^24.0.14",
     "@types/resolve": "^1.20.6",
     "@types/serve-handler": "^6.1.4",
-    "@voidzero-dev/vite-plus": "0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497",
+    "@voidzero-dev/vite-plus": "0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc",
     "cross-env": "^7.0.3",
     "diff": "^8.0.2",
     "esbuild": "^0.25.6",
@@ -92,7 +92,7 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.37.0",
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-9b441dff15ff18cfdb7a2486b2835eb884b055bc"
   },
   "peerDependencies": {
     "@marko/compiler": "^5",
