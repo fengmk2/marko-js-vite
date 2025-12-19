@@ -2,7 +2,7 @@ import * as compiler from "@marko/compiler";
 import type { Loader } from "esbuild";
 import fs from "fs";
 import path from "path";
-import type * as vite from "vite";
+import type * as vite from "@voidzero-dev/vite-plus";
 
 type ESBuildOptions = Exclude<
   vite.DepOptimizationConfig["esbuildOptions"],

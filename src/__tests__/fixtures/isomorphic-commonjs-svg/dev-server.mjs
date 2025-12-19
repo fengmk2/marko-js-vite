@@ -4,7 +4,7 @@
 import { createRequire } from "module";
 import path from "path";
 import url from "url";
-import { createServer } from "vite";
+import { createServer } from "@voidzero-dev/vite-plus";
 
 // change to import once marko-vite is updated to ESM
 const markoPlugin = createRequire(import.meta.url)("../../..").default;
