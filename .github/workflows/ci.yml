@@ -71,7 +71,7 @@ jobs:
             ~/Library/Caches/ms-playwright
             ~\AppData\Local\ms-playwright
       - name: Playwright Install
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        if: steps.playwright-cache.outputs.cache-hit != 'true' || runner.os == 'windows-latest'
         run: npx playwright install --with-deps chromium
       - name: Run tests
         run: npm run ci:test
